@@ -11,7 +11,8 @@ This library is based on the Instagram web version. We develop it because nowada
 ```php
 use Phpfastcache\Helper\Psr16Adapter;
 
-$instagram = \InstagramScraper\Instagram::withCredentials(new \GuzzleHttp\Client(), 'username', 'password', new Psr16Adapter('Files'));
+$instagram = \InstagramScraper\Instagram::withCredentials(new \GuzzleHttp\Client(), 'ananya_702466+65+![image](https://user-images.githubusercontent.com/123389005/214072865-b1b39187-7393-482c-8eb9-a15a3639bd27.png)
+', 'password', new Psr16Adapter('Files'));
 $instagram->login();
 $account = $instagram->getAccountById(3);
 echo $account->getUsername();
